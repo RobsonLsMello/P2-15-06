@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\docs\tp09\Prova\Prova\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.4.351\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\docs\tp09\Prova\Prova\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.4.351\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:\docs\tp09\Prova\Prova\atmega328p.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\docs\tp09\Prova\Prova\Debug\Prova.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Prova.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Prova.map</FILE>
+  <FILE>Prova.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>24</LINE></INICIO>
+  <ledInit><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>91</LINE></ledInit>
+  <adcInit><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>40</LINE></adcInit>
+  <LOOP><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>30</LINE></LOOP>
+  <adcRead><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>64</LINE></adcRead>
+  <adcWait><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>79</LINE></adcWait>
+  <turnOnLed><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>111</LINE></turnOnLed>
+  <turnOnSafeLed><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>99</LINE></turnOnSafeLed>
+  <turnOnwarningLed><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>103</LINE></turnOnwarningLed>
+  <turnOnDangerLed><FILE>C:\docs\tp09\Prova\Prova\main.asm</FILE><LINE>107</LINE></turnOnDangerLed>
+ </LABELS>
+</ASSEMBLER_INFO>
